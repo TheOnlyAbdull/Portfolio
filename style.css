@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+nav {
+  padding: 0.6rem 0rem;
+  background-color: rgb(19, 124, 216);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: monospace;
+  /* height: 8vh; */
+}
+.hero {
+  background-color: rgb(90, 173, 247);
+  font-family: monospace;
+  width: 100%;
+  padding: 10rem 2rem;
+  font-size: 2rem;
+  color: black;
+  font-weight: 100;
+}
+.sec-1 {
+  background-color: rgb(19, 124, 216);
+  width: 100%;
+  display: flex;
+}
+main .info {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+  padding-left: 1rem;
+}
+.content div {
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+.sec-2 {
+  width: 100%;
+  background-color: rgb(90, 173, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  width: 40%;
+  padding-top: 2rem;
+}
+.intro h3 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 0.5rem;
+}
+.intro div p {
+  padding-bottom: 1rem;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+footer {
+  font-family: monospace;
+  background-color: rgb(19, 124, 216);
+  text-align: center;
+}
+
+/* Media query for devices with a width of 768px or more */
+@media (max-width: 950px) {
+  .intro {
+    width: 60%;
+  }
+}
+
+@media (max-width: 850px) {
+  .intro {
+    width: 85%;
+  }
+  .sec-1 {
+    display: block;
+  }
+  main .info {
+    width: 100%;
+    padding: 3rem 1rem;
+  }
+}
